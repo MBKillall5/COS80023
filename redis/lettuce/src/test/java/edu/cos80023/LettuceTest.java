@@ -69,10 +69,10 @@ public class LettuceTest {
         RedisAdvancedClusterCommands<String, String> syncCommands = redisConnection.sync();
 
         String recordName = "record1";
-        String name = "FirstName";
-        String value = "John";
+        String name    = "FirstName";
+        String value   = "John";
         String surname = "LastName";
-        String value1 = "Smith";
+        String value1  = "Smith";
 
         syncCommands.hset(recordName, name, value);
         syncCommands.hset(recordName, surname, value1);
@@ -104,10 +104,10 @@ public class LettuceTest {
         RedisAdvancedClusterAsyncCommands<String, String> asyncCommands = redisConnection.async();
 
         String recordName = "record1";
-        String name = "FirstName";
-        String value = "John";
-        String surname = "LastName";
-        String value1 = "Smith";
+        String name       = "FirstName";
+        String value      = "John";
+        String surname    = "LastName";
+        String value1     = "Smith";
 
         asyncCommands.hset(recordName, name, value);
         asyncCommands.hset(recordName, surname, value1);

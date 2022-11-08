@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: edu.cos80023.JedisTest
+Test set: edu.cos80023.RedissonTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.054 s - in edu.cos80023.JedisTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.672 s - in edu.cos80023.RedissonTest
