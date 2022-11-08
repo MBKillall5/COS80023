@@ -1,0 +1,57 @@
+# Created at 2022-11-08T12:56:52.497
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2022-11-08T12:56:56.489
+Unexpected IOException: 7,1,JedisIntegrationTest,givenAPoolConfiguration_thenCreateAJedisPool(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.givenAPoolConfiguration_thenCreateAJedisPool:156 \00BB JedisConnection,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.givenAPoolConfiguration_thenCreateAJedisPool(JedisIntegrationTest.java:156)\000A
+
+
+# Created at 2022-11-08T12:56:56.493
+Unexpected IOException: 7,1,JedisIntegrationTest,givenAPoolConfiguration_thenCreateAJedisPool(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.flush:46 \00BB JedisConnection Failed to connect to any host ...,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.flush(JedisIntegrationTest.java:46)\000A
+
+
+# Created at 2022-11-08T12:56:56.494
+Unexpected IOException: 5,1,JedisIntegrationTest,givenSetElements_thenSaveThemInRedisSet(JedisIntegrationTest),null,null,null
+
+
+# Created at 2022-11-08T12:57:04.534
+Unexpected IOException: 7,1,JedisIntegrationTest,givenSetElements_thenSaveThemInRedisSet(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.givenSetElements_thenSaveThemInRedisSet:93 \00BB JedisConnection,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.givenSetElements_thenSaveThemInRedisSet(JedisIntegrationTest.java:93)\000A
+
+
+# Created at 2022-11-08T12:57:04.534
+Unexpected IOException: 7,1,JedisIntegrationTest,givenSetElements_thenSaveThemInRedisSet(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.flush:46 \00BB JedisConnection Failed to connect to any host ...,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.flush(JedisIntegrationTest.java:46)\000A
+
+
+# Created at 2022-11-08T12:57:04.534
+Unexpected IOException: 5,1,JedisIntegrationTest,givenObjectFields_thenSaveThemInRedisHash(JedisIntegrationTest),null,null,null
+
+
+# Created at 2022-11-08T12:57:12.584
+Unexpected IOException: 7,1,JedisIntegrationTest,givenObjectFields_thenSaveThemInRedisHash(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.givenObjectFields_thenSaveThemInRedisHash:120 \00BB JedisConnection,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.givenObjectFields_thenSaveThemInRedisHash(JedisIntegrationTest.java:120)\000A
+
+
+# Created at 2022-11-08T12:57:12.584
+Unexpected IOException: 7,1,JedisIntegrationTest,givenObjectFields_thenSaveThemInRedisHash(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.flush:46 \00BB JedisConnection Failed to connect to any host ...,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.flush(JedisIntegrationTest.java:46)\000A
+
+
+# Created at 2022-11-08T12:57:12.584
+Unexpected IOException: 5,1,JedisIntegrationTest,givenAString_thenSaveItAsRedisStrings(JedisIntegrationTest),null,null,null
+
+
+# Created at 2022-11-08T12:57:20.627
+Unexpected IOException: 7,1,JedisIntegrationTest,givenAString_thenSaveItAsRedisStrings(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.givenAString_thenSaveItAsRedisStrings:54 \00BB JedisConnection,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.givenAString_thenSaveItAsRedisStrings(JedisIntegrationTest.java:54)\000A
+
+
+# Created at 2022-11-08T12:57:20.627
+Unexpected IOException: 7,1,JedisIntegrationTest,givenAString_thenSaveItAsRedisStrings(JedisIntegrationTest),null,Failed to connect to any host resolved for DNS name.,null,Failed to connect to any host resolved for DNS name.,JedisIntegrationTest.flush:46 \00BB JedisConnection Failed to connect to any host ...,redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.\000A\0009at JedisIntegrationTest.flush(JedisIntegrationTest.java:46)\000A
+
+
+# Created at 2022-11-08T12:57:20.627
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,JedisIntegrationTest,null,null,null
+
+
