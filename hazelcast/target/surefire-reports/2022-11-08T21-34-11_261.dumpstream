@@ -1,0 +1,15 @@
+# Created at 2022-11-08T21:34:13.527
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2022-11-08T21:34:13.527
+WARNING: Illegal reflective access by com.hazelcast.internal.networking.nio.SelectorOptimizer (file:/C:/Users/User/.m2/repository/com/hazelcast/hazelcast-all/5.0-BETA-1/hazelcast-all-5.0-BETA-1.jar) to field sun.nio.ch.SelectorImpl.selectedKeys
+
+# Created at 2022-11-08T21:34:13.527
+WARNING: Please consider reporting this to the maintainers of com.hazelcast.internal.networking.nio.SelectorOptimizer
+
+# Created at 2022-11-08T21:34:13.527
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2022-11-08T21:34:13.527
+WARNING: All illegal access operations will be denied in a future release
+

@@ -1,0 +1,67 @@
+# Created at 2022-11-08T21:21:19.011
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2022-11-08T21:21:20.243
+Unexpected IOException with stream: Nov. 08, 2022 9:21:20 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Exception during initial connection to [127.0.0.1]:5701: com.hazelcast.core.HazelcastException: java.net.SocketException: Connection refused: no further information to address /127.0.0.1:5701
+
+
+# Created at 2022-11-08T21:21:20.248
+Unexpected IOException with stream: Nov. 08, 2022 9:21:20 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+INFO: hz.client_1 [dev] [3.12.13] Trying to connect to [127.0.0.1]:5702 as owner member
+
+
+# Created at 2022-11-08T21:21:22.291
+Unexpected IOException with stream: Nov. 08, 2022 9:21:22 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Exception during initial connection to [127.0.0.1]:5702: com.hazelcast.core.HazelcastException: java.net.SocketException: Connection refused: no further information to address /127.0.0.1:5702
+
+
+# Created at 2022-11-08T21:21:22.295
+Unexpected IOException with stream: Nov. 08, 2022 9:21:22 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+INFO: hz.client_1 [dev] [3.12.13] Trying to connect to [127.0.0.1]:5703 as owner member
+
+
+# Created at 2022-11-08T21:21:24.329
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Exception during initial connection to [127.0.0.1]:5703: com.hazelcast.core.HazelcastException: java.net.SocketException: Connection refused: no further information to address /127.0.0.1:5703
+
+
+# Created at 2022-11-08T21:21:24.329
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Unable to get live cluster connection, attempt 2 of 2.
+
+
+# Created at 2022-11-08T21:21:24.329
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Unable to connect to any address for cluster: dev. The following addresses were tried: [[127.0.0.1]:5703, [127.0.0.1]:5702, [127.0.0.1]:5701]
+
+
+# Created at 2022-11-08T21:21:24.345
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.client.connection.nio.ClusterConnectorService
+WARNING: hz.client_1 [dev] [3.12.13] Could not connect to any cluster, shutting down the client: Unable to connect to any cluster.
+
+
+# Created at 2022-11-08T21:21:24.345
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [3.12.13] HazelcastClient 3.12.13 (20220825 - 40e63ea) is SHUTTING_DOWN
+
+
+# Created at 2022-11-08T21:21:24.360
+Unexpected IOException with stream: Nov. 08, 2022 9:21:24 PM com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [3.12.13] HazelcastClient 3.12.13 (20220825 - 40e63ea) is SHUTDOWN
+
+
+# Created at 2022-11-08T21:21:24.360
+Unexpected IOException: 7,1,edu.cos80023.HazelcastTest,edu.cos80023.HazelcastTest,null,Unable to connect to any cluster.,null,Unable to connect to any cluster.,HazelcastTest.edu.cos80023.HazelcastTest \00BB IllegalState Unable to connect to a...,java.lang.IllegalStateException: Unable to connect to any cluster.\000A
+
+
+# Created at 2022-11-08T21:21:24.360
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,edu.cos80023.HazelcastTest,null,null,null
+
+
